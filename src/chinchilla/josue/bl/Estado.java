@@ -1,3 +1,5 @@
+
+
 package chinchilla.josue.bl;
 
 public class Estado {
@@ -27,5 +29,13 @@ public class Estado {
 
     public void setCodigoEstado(String codigoEstado) {
         this.codigoCategoria = codigoCategoria;
+    }
+
+    @Override
+    public String toString() {
+        return "Estado{" +
+                "nombreCategoria='" + nombreCategoria + '\'' +
+                ", codigoCategoria='" + codigoCategoria + '\'' +
+                '}';
     }
 }

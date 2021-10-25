@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+
 public class Collecionista extends Usuario {
 
     private String avatar;
